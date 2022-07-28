@@ -1,0 +1,168 @@
+body {
+    background-color: rgba(0, 0, 0, 0.793);
+}
+
+.a {
+    background-image: url(./images/IMG_north2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.navbar {
+    font-size: larger;
+}
+
+.a1 {
+    text-align: center;
+    margin-top: 80px;
+    /* margin-left: 200px; */
+}
+/* .b {
+    height: 870px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin-left: 93px;
+
+
+} */
+
+#b1 {
+    /* height: 870px;
+    width: 50%; */
+    /* background-image: url(./images/8dd35b38d76df5dbb78b32a7ec2b6358.jpg); */
+    background-size: cover;
+}
+
+#b1img{
+    height: 100%;
+    width: 570px;
+}
+/* #b2 {
+    /* height: 870px;
+    width: 50%; */
+    /* background-color: white; */
+/* } */ 
+
+.d-block {
+    height: 280px;
+    width: 285px;
+}
+
+#c {
+    height: 900px;
+    width: 100%;
+    background-image: url(./images/722306003fe3c0bd97383c6d008c3eba.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+}
+
+.card-img-top {
+    height: 280px;
+    width: 285px;
+}
+
+/* .d{
+    height: 400px;
+    width: 100%;
+    background-color: rgba(102, 38, 38, 0.566);
+  }
+  video{
+    height: 400px;
+    margin-left: 520px;
+    padding: 5px;
+    border-radius: 10px;
+  } */
+
+
+/* .row{
+  position: absolute;
+  color: wheat;
+} */
+#col-1 a {
+    text-decoration: none;
+    color: rgb(197, 200, 202);
+}
+
+#col-2 a {
+    text-decoration: none;
+    color: rgb(197, 200, 202);
+}
+
+#col-3 a {
+    text-decoration: none;
+    color: rgb(197, 200, 202);
+}
+
+#col-4 a {
+    text-decoration: none;
+    color: rgb(197, 200, 202);
+}
+#section{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(9, 9, 44);
+}
+.container{
+    display: flex;
+
+}
+@media(max-width:400px){
+    .a{
+        background-color: rgb(14, 13, 13);
+        background-image: url(./images/north\ logo.png);
+        background-size: contain;
+    }
+    h1{
+        font-size: larger;
+        margin-top: 300px;
+    }
+    h4{
+        font-size: small;
+    }
+    h2{
+        font-size: large;
+        margin-top: -170px;
+    }
+    p{
+        font-size: smaller;
+    }
+    .b{
+        margin-left: -120px;
+    }
+}
+@media(max-width:991px){
+    .c{
+        background-image: none;
+    }
+    .c1{
+        background-color: rgba(27, 48, 27, 0.875);
+    }
+    .c2{
+        background-color: rgba(96, 27, 27, 0.999);
+    }
+    .c3{
+        background-color: rgba(191, 129, 49, 0.926);
+    }
+    #section{
+        margin-top: 615px;
+    }
+
+}
+@media(max-width:767px){
+    #section{
+        margin-top: 1368px;
+        height: 600px;
+    }
+}
